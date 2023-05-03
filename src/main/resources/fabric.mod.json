@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "valuables",
+	"version": "${version}",
+	"name": "Valuables",
+	"description": "",
+	"authors": [
+		""
+	],
+	"contact": {
+		"homepage": "https://fidzii.dev/",
+		"sources": "https://github.com/Dawn-Studio/Valuables"
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/valuables/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "dev.fidzii.Valuables"
+		],
+		"client": [
+			"dev.fidzii.ValuablesClient"
+		],
+		"fabric-datagen": [
+			"dev.fidzii.ValuablesDataGenerator"
+		]
+	},
+	"mixins": [
+		"valuables.mixins.json",
+		{
+			"config": "valuables.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
