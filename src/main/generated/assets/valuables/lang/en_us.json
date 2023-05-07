@@ -1,0 +1,15 @@
+{
+  "item.valuables.amber": "Amber",
+  "item.valuables.black_opal": "Black Opal",
+  "item.valuables.golden_bracelet": "Golden Bracelet",
+  "item.valuables.golden_earrings": "Golden Earrings",
+  "item.valuables.golden_necklace": "Golden Necklace",
+  "item.valuables.golden_ring": "Golden Ring",
+  "item.valuables.moonstone": "Moonstone",
+  "item.valuables.pearl": "Pearl",
+  "item.valuables.silver_bracelet": "Silver Bracelet",
+  "item.valuables.silver_earrings": "Silver Earrings",
+  "item.valuables.silver_necklace": "Silver Necklace",
+  "item.valuables.silver_ring": "Silver Ring",
+  "itemGroup.valuables.main_group": "Valuables"
+}
