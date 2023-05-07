@@ -1,4 +1,5 @@
 {
+  "entity.valuables.travelling_merchant": "Travelling Merchant",
   "item.valuables.amber": "Amber",
   "item.valuables.black_opal": "Black Opal",
   "item.valuables.golden_bracelet": "Golden Bracelet",
@@ -11,5 +12,6 @@
   "item.valuables.silver_earrings": "Silver Earrings",
   "item.valuables.silver_necklace": "Silver Necklace",
   "item.valuables.silver_ring": "Silver Ring",
+  "item.valuables.travelling_merchant_spawn_egg": "Travelling Merchant Spawn Egg",
   "itemGroup.valuables.main_group": "Valuables"
 }

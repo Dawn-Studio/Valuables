@@ -1,5 +1,6 @@
 package dev.fidzii.data.lang;
 
+import dev.fidzii.registry.AllEntities;
 import dev.fidzii.registry.AllItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
@@ -30,5 +31,7 @@ public class EnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(AllItems.PEARL, "Pearl");
         translationBuilder.add(AllItems.AMBER, "Amber");
 
+        translationBuilder.add(AllEntities.TRAVELLING_MERCHANT_ENTITY, "Travelling Merchant");
+        translationBuilder.add(AllItems.TRAVELLING_MERCHANT_SPAWN_EGG, "Travelling Merchant Spawn Egg");
     }
 }
